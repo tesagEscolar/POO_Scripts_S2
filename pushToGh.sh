@@ -4,6 +4,6 @@
 echo “running command from” $PWD
 cd $PWD
 git add .
-git commit -am “$commitMessage”
+git commit -am “$1”
 git push
 exit 1
