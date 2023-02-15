@@ -4,6 +4,6 @@
 echo “running command from” $PWD
 cd $PWD
 git add .
-git commit -am “forloop”
+git commit -am “$commitMessage”
 git push
 exit 1
