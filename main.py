@@ -1,8 +1,8 @@
 import subprocess
 
-commitMessage = 'For_loop'
+commitMessage = 'For_loop2'
 
-file1 = open(f'{commitMessage}.cpp', "w")
+file1 = open(f'Parcial1/{commitMessage}.cpp', "w")
 L = ["for(int i=0; i<10; i++){ cout<<i<<endl"]
 file1.writelines(L)
 file1.close()
